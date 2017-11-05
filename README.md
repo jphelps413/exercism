@@ -1,2 +1,2 @@
 # exercism
-My solutions to the Exercism exercises at http://exercism.io/tracks
+My solutions to the Exercism exercises at http://exercism.io/languages
