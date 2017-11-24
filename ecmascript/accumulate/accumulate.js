@@ -1,9 +1,9 @@
-const accumulate = (coll,pred) => {
-  let rslt = []
-  for( let i = 0; i < coll.length; i++ ) {
-    rslt.push( pred(coll[i]) )
+const accumulate = (coll, pred) => {
+  const rslt = [];
+  for (let i = 0; i < coll.length; i += 1) {
+    rslt.push(pred(coll[i]));
   }
-  return rslt
-}
+  return rslt;
+};
 
-export default accumulate
+export default accumulate;
